@@ -7,6 +7,7 @@ class StringFunctions {
      * capitalize('HELLO WORLD') // 'Hello world'
      */
     capitalize(input) { 
+      let input = input.toUpperCase();
       return input; 
     }
     /**
