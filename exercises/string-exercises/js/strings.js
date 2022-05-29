@@ -18,7 +18,11 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
     reverse(input) { 
-      return input;
+      let reversed ='';
+      for(let i = input.length -1; i>0;i--){
+        reservsed += input[i];
+      }
+      return reversed
     }
     /**
      * Returns an array of the words in a string
@@ -27,7 +31,9 @@ class StringFunctions {
      * @example
      * words('hello world') // ['hello', 'world']
      */
-    split(input) { 
-      return [input];
+    split(input) {
+      let y = input.replace(/[^A-Za-z0-0]+/g, " "); 
+      let newarray = x.trim().split(" ");
+      return newarray;
     }
 }
