@@ -33,7 +33,7 @@ class StringFunctions {
      */
     split(input) {
       let y = input.replace(/[^A-Za-z0-0]+/g, " "); 
-      let newarray = x.trim().split(" ");
-      return newarray;
+      
+      return input.split(" ");
     }
 }
