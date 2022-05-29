@@ -8,9 +8,9 @@ const statSelect = document.querySelector('#stat');
 
 
 inputText.addEventListener("input", () =>{
-  var nall = inputText.value;
+  var val = inputText.value;
   var word = val.split(/[^\w]+/).filter(z=>z.length>0);
-  statSelect.innerHTML= `You've wriiten ${word.length} words and ${val.length} cahracters.`
+  statSelect.innerHTML= `You've written ${word.length} words and ${val.length} characters.`
 });
 
 
